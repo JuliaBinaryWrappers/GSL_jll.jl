@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libgsl`
-const libgsl_splitpath = ["lib", "libgsl.25.dylib"]
+const libgsl_splitpath = ["lib", "libgsl.0.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libgsl_path = ""
@@ -17,18 +17,20 @@ libgsl_path = ""
 libgsl_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libgsl = "@rpath/libgsl.25.dylib"
+const libgsl = "@rpath/libgsl.0.dylib"
 
 
 """
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"GSL")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    global libgsl_path = abspath(joinpath(artifact"GSL", libgsl_splitpath...))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    global libgsl_path = normpath(joinpath(artifact_dir, libgsl_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.

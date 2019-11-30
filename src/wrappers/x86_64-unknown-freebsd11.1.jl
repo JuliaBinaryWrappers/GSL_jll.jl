@@ -17,18 +17,20 @@ libgsl_path = ""
 libgsl_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libgsl = "libgsl.so.25"
+const libgsl = "libgsl.so.17"
 
 
 """
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"GSL")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    global libgsl_path = abspath(joinpath(artifact"GSL", libgsl_splitpath...))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    global libgsl_path = normpath(joinpath(artifact_dir, libgsl_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
