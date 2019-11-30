@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "PATH"
 
 # Relative path to `libgsl`
-const libgsl_splitpath = ["bin", "libgsl-0.dll"]
+const libgsl_splitpath = ["bin", "libgsl-25.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libgsl_path = ""
@@ -17,7 +17,7 @@ libgsl_path = ""
 libgsl_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libgsl = "libgsl-0.dll"
+const libgsl = "libgsl-25.dll"
 
 
 """

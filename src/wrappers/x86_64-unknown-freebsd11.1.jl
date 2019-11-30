@@ -17,7 +17,7 @@ libgsl_path = ""
 libgsl_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libgsl = "libgsl.so.17"
+const libgsl = "libgsl.so.25"
 
 
 """

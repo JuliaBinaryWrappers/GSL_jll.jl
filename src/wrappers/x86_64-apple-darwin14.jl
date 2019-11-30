@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libgsl`
-const libgsl_splitpath = ["lib", "libgsl.0.dylib"]
+const libgsl_splitpath = ["lib", "libgsl.25.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libgsl_path = ""
@@ -17,7 +17,7 @@ libgsl_path = ""
 libgsl_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libgsl = "@rpath/libgsl.0.dylib"
+const libgsl = "@rpath/libgsl.25.dylib"
 
 
 """
