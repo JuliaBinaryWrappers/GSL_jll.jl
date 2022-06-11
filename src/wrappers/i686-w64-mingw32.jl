@@ -2,12 +2,24 @@
 export gsl_histogram, gsl_randist, libgsl, libgslcblas
 
 JLLWrappers.@generate_wrapper_header("GSL")
+JLLWrappers.@declare_library_product(libgsl, "libgsl-27.dll")
+JLLWrappers.@declare_library_product(libgslcblas, "libgslcblas-0.dll")
 JLLWrappers.@declare_executable_product(gsl_histogram)
 JLLWrappers.@declare_executable_product(gsl_randist)
-JLLWrappers.@declare_library_product(libgsl, "libgsl-25.dll")
-JLLWrappers.@declare_library_product(libgslcblas, "libgslcblas-0.dll")
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_library_product(
+        libgsl,
+        "bin\\libgsl-27.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libgslcblas,
+        "bin\\libgslcblas-0.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         gsl_histogram,
         "bin\\gsl-histogram.exe",
@@ -16,18 +28,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         gsl_randist,
         "bin\\gsl-randist.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        libgsl,
-        "bin\\libgsl-25.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libgslcblas,
-        "bin\\libgslcblas-0.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()

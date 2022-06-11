@@ -1,143 +1,143 @@
 [[GSL]]
 arch = "aarch64"
-git-tree-sha1 = "f129a1a312fac4f577720b9ec87a061475660fd2"
+git-tree-sha1 = "3375f49f996fe8fc031b5cee44a6e4143b76bb6d"
 os = "macos"
 
     [[GSL.download]]
-    sha256 = "9cd8636328fc07dd6c02cd8b8ad9595f4216313fb722eb3ed5d404ac7af5aaa2"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "d7aec5ec562eab306c196e7945f72990c35f5d5dfc0188ea3f52f62765b133ff"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.aarch64-apple-darwin.tar.gz"
 [[GSL]]
 arch = "aarch64"
-git-tree-sha1 = "c8b98267f8a4d7d7c21c47081957f68af5040157"
+git-tree-sha1 = "6f95e81f014fe43f78cb13af5ed128791967c77c"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "ef963048787e044490dc03be28af5094254ccb5668ddc668181407aefbcb9517"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "d13b2f8e7fc6ddb0b143a7aee6e24224006d4a084a6bb13436959f2cb45264ff"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.aarch64-linux-gnu.tar.gz"
 [[GSL]]
 arch = "aarch64"
-git-tree-sha1 = "af85d81b3f06b72dfa3eda676bc8157315607c34"
+git-tree-sha1 = "0042bbffc9f54799080adcb11f228ffe7e880b81"
 libc = "musl"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "28bd7ce5a8cd2152440d7058721a2bad67cd9234e7b781124a1d5daa9ba00a1e"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.aarch64-linux-musl.tar.gz"
+    sha256 = "f056a95322461014cbf4edcdcec43619ae47b1a6fcb53cd73cfed2c320db1bf0"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.aarch64-linux-musl.tar.gz"
 [[GSL]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "924f530e7e2f3b770966e293e186965501d465a9"
+git-tree-sha1 = "09740846373788bbf31d18a4f0f0e4d270d99d47"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "67b10aac79e407e4f3ac5f64ca8ceea37e72d18bef93640702d78a42e2e0513e"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "598a39b14de2dfa1586bd396272c3e99dcaad05a3f801b6b6a311afcb2fc017f"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.armv6l-linux-gnueabihf.tar.gz"
 [[GSL]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "fbc29730f5fe44f5743e649d4f78b38f41849038"
+git-tree-sha1 = "cc3555d9c12f35863ad65a29ff11a038ed11b1d1"
 libc = "musl"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "81506d20e00702e741214d6940fc4a626d3e46cbfe87c2019a0c0568ab5a5429"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "05b771c702e120735445df1ec15ab164dfe7824ee5ba6ab1332686a5b5b20c86"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.armv6l-linux-musleabihf.tar.gz"
 [[GSL]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2e6d1e771512d7d5806b6f74e3afd76876a6295e"
+git-tree-sha1 = "a8e0ca835bfa2474aab0bb5b3dd123052b2922d7"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "c5f1e293212dab990e0446e5f89db7f80dfdd8fa506378f1a916a0411ae7c089"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "bd12cfb54977309f90fb39feef6c927148695e46df947d4b5c0538f935fd27f2"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.armv7l-linux-gnueabihf.tar.gz"
 [[GSL]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "ab437ae90d3ba2293a239d5f48a0a41de572512b"
+git-tree-sha1 = "3943c6319afba7b11f48d11ca048f8ed8893cbd7"
 libc = "musl"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "cac6b55e5aeec7ac4595da9010f4b0734938e11a2a4da090b90e9de8d8fe15e9"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "6e49a2b5e52a0c08273b146759c3042d87cb8cc83e09ee557cd1bfc1bb543e38"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.armv7l-linux-musleabihf.tar.gz"
 [[GSL]]
 arch = "i686"
-git-tree-sha1 = "0cf1b272d11ba29e7c82d2982c130ff36dcbd8e0"
+git-tree-sha1 = "00c903423520ac318c71f272c97af46d3d48eb44"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "59d74c30b1f2bc632fde84d393e47d4c3e8fb28939205624c885ba9fe22c97f4"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.i686-linux-gnu.tar.gz"
+    sha256 = "efdd1cbc4275f9040214a60814b2fc9db13be0d54ffcc4898f414f7243257ea3"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.i686-linux-gnu.tar.gz"
 [[GSL]]
 arch = "i686"
-git-tree-sha1 = "772531c14410d905011b6556f386821ece4802dc"
+git-tree-sha1 = "e7fbf891b7f7993445a25831f1b7d6e48aad147d"
 libc = "musl"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "7d968bb20d8b134df77b9b0e455f9b5fa012c395c394c7f45bf0dfb3b4f2a237"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.i686-linux-musl.tar.gz"
+    sha256 = "3ae0e3401239faf3a20037143b9f90fd2e22bab92ff64ea7e3ad6820582ffd5e"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.i686-linux-musl.tar.gz"
 [[GSL]]
 arch = "i686"
-git-tree-sha1 = "6d71ab3330a3145ada5c9f2ec0144db8ac0a5b1b"
+git-tree-sha1 = "7334862987e4573f773c3829cc62d7c3f780d8f6"
 os = "windows"
 
     [[GSL.download]]
-    sha256 = "a0efea9e9200180bad1424df37ee4e50d6c10f86bf7b614086450370bc384436"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.i686-w64-mingw32.tar.gz"
+    sha256 = "d3e1f6acb21fba61bf000f5b4e1ab97801926772e6db1e496a753c02d4691f16"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.i686-w64-mingw32.tar.gz"
 [[GSL]]
 arch = "powerpc64le"
-git-tree-sha1 = "6bac8467b3246be544c3a728c808a884e0a1bc75"
+git-tree-sha1 = "e93b26a5dda85d0a5de508a32f3d9e4c26d10919"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "d8ef8d2a864a2ff5e9c5f8396a028c49ca6ef53c8c48274e914f0eca6c06893d"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "730488b721b4147daee69125850664c776163bc7c977d3028619050ea15b962c"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.powerpc64le-linux-gnu.tar.gz"
 [[GSL]]
 arch = "x86_64"
-git-tree-sha1 = "91aea9766a14e681de18eab15395eebe3c177e17"
+git-tree-sha1 = "a069bb65b0e7d78f08a0a342d84d12c2216de705"
 os = "macos"
 
     [[GSL.download]]
-    sha256 = "3b34d8479f0f979e5856ff24df4937e11ccaa089709e607d23a5e9aeb09d3a14"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "fe08277b9c75b72a652af33748da18be3154392d009d01bb5f8793a141a3ec9a"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.x86_64-apple-darwin.tar.gz"
 [[GSL]]
 arch = "x86_64"
-git-tree-sha1 = "3908767681eedc038a8c56d4c4ba2e1ca633e690"
+git-tree-sha1 = "d159acf1739aafc829461d61aad66f5d718ce036"
 libc = "glibc"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "12b5b94344ccdce2720aa624b99fb39f43cf856af6283fedfdd6f903bcf0bcc0"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "88a5d79a2a6c42a32126d71b47a9c921d2a9c8ca0ee1d76012720ffaee55f311"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.x86_64-linux-gnu.tar.gz"
 [[GSL]]
 arch = "x86_64"
-git-tree-sha1 = "59b765c39f85db045201506174083574abc8a2ab"
+git-tree-sha1 = "cb768b318a6f840be34aeb3c9a03854bdf088d47"
 libc = "musl"
 os = "linux"
 
     [[GSL.download]]
-    sha256 = "c73503764e252f9a57ec4a3a37088325ab96c4fa3c39195d2666990fa9718e37"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.x86_64-linux-musl.tar.gz"
+    sha256 = "fd7d349c77ce5e1ce4bcfe280d4cd4e5bcca13dcb471b81ccbbec44e7a641b27"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.x86_64-linux-musl.tar.gz"
 [[GSL]]
 arch = "x86_64"
-git-tree-sha1 = "ebfcf91bc9b2393cd4a16d6e647136e257a1c117"
+git-tree-sha1 = "803acf6dc91d2813a7f4ad8a681839847928b6ed"
 os = "freebsd"
 
     [[GSL.download]]
-    sha256 = "226957458183b17c56718fead83ca4b97fcc245db37df5a8ebb4183c2e9f1437"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "4c898e3485e4103b9a3a1fed824ed2dc0bfc1e4a9461d81bac821d578a480272"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.x86_64-unknown-freebsd.tar.gz"
 [[GSL]]
 arch = "x86_64"
-git-tree-sha1 = "dab6352cdf6e6863d808ef8595841c240d9a3fb2"
+git-tree-sha1 = "1d01891c1edd6b312586f50124582fa609a004aa"
 os = "windows"
 
     [[GSL.download]]
-    sha256 = "8da1aae1da6b8dd8cd4e3836120c054bddb7c2320a6315bee60d93eea1dcbcb6"
-    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.1+0/GSL.v2.7.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "eb642022539871c7991168492997c470d3176af6bd99386e262e16e50b45371d"
+    url = "https://github.com/JuliaBinaryWrappers/GSL_jll.jl/releases/download/GSL-v2.7.2+0/GSL.v2.7.2.x86_64-w64-mingw32.tar.gz"
