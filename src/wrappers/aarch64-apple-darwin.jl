@@ -2,7 +2,7 @@
 export gsl_histogram, gsl_randist, libgsl, libgslcblas
 
 JLLWrappers.@generate_wrapper_header("GSL")
-JLLWrappers.@declare_library_product(libgsl, "@rpath/libgsl.27.dylib")
+JLLWrappers.@declare_library_product(libgsl, "@rpath/libgsl.28.dylib")
 JLLWrappers.@declare_library_product(libgslcblas, "@rpath/libgslcblas.0.dylib")
 JLLWrappers.@declare_executable_product(gsl_histogram)
 JLLWrappers.@declare_executable_product(gsl_randist)
@@ -10,7 +10,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libgsl,
-        "lib/libgsl.27.dylib",
+        "lib/libgsl.28.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

@@ -2,7 +2,7 @@
 export gsl_histogram, gsl_randist, libgsl, libgslcblas
 
 JLLWrappers.@generate_wrapper_header("GSL")
-JLLWrappers.@declare_library_product(libgsl, "libgsl.so.27")
+JLLWrappers.@declare_library_product(libgsl, "libgsl.so.28")
 JLLWrappers.@declare_library_product(libgslcblas, "libgslcblas.so.0")
 JLLWrappers.@declare_executable_product(gsl_histogram)
 JLLWrappers.@declare_executable_product(gsl_randist)
