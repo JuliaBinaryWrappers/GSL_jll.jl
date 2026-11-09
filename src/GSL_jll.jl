@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("GSL")
-JLLWrappers.@generate_main_file("GSL", UUID("1b77fbbe-d8ee-58f0-85f9-836ddc23a7a4"))
+JLLWrappers.@generate_main_file("GSL", Base.UUID("1b77fbbe-d8ee-58f0-85f9-836ddc23a7a4"))
 end  # module GSL_jll
